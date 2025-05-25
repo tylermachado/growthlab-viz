@@ -1,13 +1,10 @@
 <script>
   import data from '$lib/data.json';
-	import nestData from '$lib/nestData';
-	import Selector from '../components/Selector.svelte';
-	const nestedData = $derived(nestData(data));
 	
 </script>
 
 <main>
-	<Selector data={nestedData} />
+
 </main>
 
 <style>
